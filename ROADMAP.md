@@ -1,42 +1,23 @@
 # Roadmap - Feestcafe De Dokter Website
 
-## Done
+Deze repo is de statische eerste versie op GitHub Pages en is niet de live bron: feestcafededokter.nl draait sinds
+20 jul 2026 op WordPress (web02, parity-laag in `KatamaNL/reetraa-wp-parity`). De Dokter heeft geen
+onderhoudscontract, dus Katama doet daar geen ongevraagd onderhoud (besluit Herriaan 15 nov 2026). Er is geen open
+werk in deze repo.
 
-- [x] Initiele opzet: hero, about, wheel, photos, info, footer (v1)
-- [x] Dark theme met teal accenten en CSS variabelen
-- [x] Video hero met neon flicker animatie
-- [x] Confetti achtergrond (afbeelding, canvas variant verwijderd vanwege Chrome flicker)
-- [x] Mascotte fixed rechtsonder met float-animatie en klikbare quips (v4)
-- [x] Luckiest Guy font voor headings/logo (v5)
-- [x] Physics-based drag-to-spin Rad van Fortuin met receptkaart resultaat (v5)
-- [x] Foto galerij: Polaroid-stijl met rotaties en handgeschreven bijschriften (v9)
-- [x] Medische SVG illustraties op donkere secties (v9)
-- [x] Scroll-reveal animaties (links, rechts, scale-up) (v9)
-- [x] Gouden text-shadow op sectie-kopjes (v9)
-- [x] Chrome glitch fixes: fixed bg div, geen backdrop-filter, geen canvas confetti
-- [x] Debug overlay (`?debug`) voor rad-kalibratie
-- [x] GitHub Pages deploy (auto bij push naar main)
-- [x] README.md en ROADMAP.md toegevoegd
-- [x] Rad mapping kalibratie - rad heeft 23 segmenten (niet 24); alle grenzen + prijzen pixel-gemeten uit draairad.png en geverifieerd, uitkomst klopt nu met de pijl (v13, 3 jul). Script: `scripts/rad-meten.py`
-- [x] Fotoronde 2 jul verwerkt: team/proost vervangen, dj- en krokodilfoto toegevoegd; originelen in `assets/aanlevering-2026-07-02/` (v12/v14, 3 jul)
-- [x] Favicon: mascotte-hoofd als tab-icoon + apple-touch-icon; `.nojekyll` toegevoegd na falende Pages-build (v15/v16, 4 jul)
+## Open
 
-## In Progress
+- De GitHub Pages-kopie (https://katamanl.github.io/de-dokter-website/) staat nog aan en toont een oude versie naast
+  de live site. Pages uitzetten en de repo archiveren: alleen met akkoord van Herriaan. Terugkeervoorwaarde: zijn
+  besluit.
 
-- (niets)
+## Afgerond
 
-## Next
-
-- [x] Echte teamfoto + bar-foto in fotostrip (issue #6, 23 jun)
-- [x] "Het team" + "Proost" foto's vervangen door klantbeeld (v12, 3 jul)
-- [x] DJ-foto + krokodil in fotostrip (issue #6) - "Beste DJ's" + "De krokodil" geplaatst uit klantbeeld (v14, 3 jul)
-- [x] Contact gegevens in footer vervanging door echte data (nu placeholders) — live site
-  (feestcafededokter.nl, WordPress, niet deze GitHub Pages-repo) gecorrigeerd 25 aug 2026:
-  mailadres info@cafededokter.nl → info@feestcafededokter.nl, telefoon 06-23855950 bevestigd
-  correct door de klant (geen placeholder, geen wijziging nodig). Deze repo's eigen
-  `index.html` bevat geen contactgegevens en is niet de live bron.
-- [ ] Openingstijden verifieren met klant
-- [ ] Glitch/flicker definitief verifieren met klant
-- [ ] Custom domein koppelen (indien gewenst)
-- [ ] Performance: lazy loading voor foto's en video
-- [ ] SEO: Open Graph meta tags en structured data
+- Maart tot en met juni 2026: one-page site gebouwd (hero met video, about, Rad van Fortuin, fotostrip, info, footer), donker
+  thema, mascotte, scroll-reveal, Chrome-glitchfixes en GitHub Pages-deploy (v1 tot en met v9).
+- 2026-06-23 tot en met 2026-07-09: klantbeeld in de fotostrip (issue 6), rad gekalibreerd op 23 segmenten
+  (`scripts/rad-meten.py`, v13), favicon en `.nojekyll` (v15, v16), DJ-foto vervangen (v17).
+- 2026-08-25: contactgegevens op de live WordPress-site gecorrigeerd en bevestigd door de klant; deze repo bevat
+  geen contactgegevens (v18).
+- 2026-11-15: vervallen door het besluit van die dag en door de verhuizing naar WordPress: openingstijden en
+  glitch verifiëren met de klant, custom domein, lazy loading, Open Graph en structured data.
