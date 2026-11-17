@@ -1,5 +1,8 @@
 # Changelog - Feestcafe De Dokter Website
 
+## v19 - 2026-11-18
+- docs(roadmap): **ROADMAP opgeschoond bij de opschoning van de werkvoorraad, ronde 2** (opdracht Herriaan 17 nov 2026, twijfelvragen beslist op zijn opdracht van 18 nov). Open items van 6 naar 1, van 42 naar 23 regels. Afgeronde secties zijn één themaregel per onderwerp (de historie staat in CHANGELOG en git); weg zijn wachtposten zonder besluit, hermetingen zonder beslissing, review-restjes en dubbele regels. Terugkeervoorwaarden, waarschuwingen, besluiten en wijzers naar open issues zijn gebleven. Alleen docs. (@herriaan)
+
 ## v18 - 2026-08-25
 - Roadmap-regel "Contact gegevens in footer" afgevinkt: live footer op feestcafededokter.nl
   (WordPress, buiten deze repo) mailadres gecorrigeerd naar info@feestcafededokter.nl; telefoon
